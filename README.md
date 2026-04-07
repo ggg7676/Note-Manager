@@ -1,5 +1,5 @@
 # Note-Manager-CLI
-A command-line note-taking application in Python. Uses a text file as a database to store, access and delete notes.
+A command-line note-taking applicatio. Uses a text file as a database to store, access and delete notes.
 
 Supported commands:
 
