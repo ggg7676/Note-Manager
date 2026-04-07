@@ -4,7 +4,7 @@ A command-line note-taking applicatio. Uses a text file as a database to store, 
 Supported commands:
 
 notes add 'Title' 'Content' -  adds a new note with specified title and content, and a unique id that increments automatically.
-Ex.: notes add "Update schedule" "Add Meeting at 3PM"
+Ex.: notes add "Update schedule" "Add meeting at 3PM"
 
 notes list - shows all the notes currently stored in the database
 
