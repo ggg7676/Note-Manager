@@ -14,7 +14,12 @@ def main():
                 return
             
             if line == "":
-                break
+                if not lines: 
+                    print("Invalid command.\n")
+                    print("Enter a command and press enter twice: ")
+                    continue
+                else:
+                    break
 
             lines.append(line)
 
@@ -51,6 +56,12 @@ def main():
             full_command = full_command.split('"')
             print(add_note(full_command[1], full_command[2]))
 
+   
+
+if __name__ == "__main__":
+    main()
+    
+    
    
 
 if __name__ == "__main__":
